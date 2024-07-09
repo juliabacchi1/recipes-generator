@@ -5,46 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>🍳 Recipes Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Recipes Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the ingredients you have"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Text in here</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Recipes Generator</h1>
+      </header>
 
-    <footer>
-      <p>
-        This project was coded with <span>❤</span> by
-        <a href="https://github.com/juliabacchi1" target="_blank" class="info"
-          >Júlia Bacchi</a
-        >
-        is open-sourced on
-        <a
-          href="https://github.com/juliabacchi1/recipes-generator"
-          target="_blank"
-          class="info"
-        >
-          GitHub</a
-        >
-        and hosted ond
-        <a href="https://app.netlify.com/" target="_blank" class="info"
-          >Netlify</a
-        >
-      </p>
-    </footer>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the ingredients you have"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="informations">Text in here</div>
+      </main>
+
+      <footer>
+        <p>
+          This project was coded with <span>❤</span> by
+          <a href="https://github.com/juliabacchi1" target="_blank" class="info"
+            >Júlia Bacchi</a
+          >
+          is open-sourced on
+          <a
+            href="https://github.com/juliabacchi1/recipes-generator"
+            target="_blank"
+            class="info"
+          >
+            GitHub</a
+          >
+          and hosted ond
+          <a href="https://app.netlify.com/" target="_blank" class="info"
+            >Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
