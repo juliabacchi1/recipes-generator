@@ -81,15 +81,35 @@ form {
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #885df1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 footer {
   text-align: center;
   font-size: 12px;
   margin-top: 30px;
+}
+
+.generating {
+  font-size: 13px;
+  color: hsla(0, 0%, 0%, 0.522);
+  animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
