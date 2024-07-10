@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>🍳 Recipes Generator</title>
   </head>
   <body>
@@ -18,15 +19,15 @@
       <header>
         <img src="imgs/logo.png" alt="logo" />
         <h1>Your personal Kitchen Assistant</h1>
-        <p>
+        <h2>
           With the ingredients you have at home, our AI will create a delicious
           recipe just for you! Simplify your cooking with creativity and
           convenience, to reduce kitchen waste.
-        </p>
+        </h2>
       </header>
 
       <main>
-        <form action="">
+        <form id="recipes-form">
           <input
             type="text"
             placeholder="Enter the ingredients you have"
@@ -37,7 +38,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="informations">Text in here</div>
+        <div class="informations" id="informations"></div>
       </main>
 
       <footer>
