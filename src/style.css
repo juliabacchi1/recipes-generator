@@ -15,7 +15,7 @@ img {
   max-width: 150px;
 }
 
-span {
+strong {
   color: #885df1;
 }
 
@@ -72,10 +72,11 @@ form {
   font-size: 16px;
   border-radius: 50px;
   padding: 14px 24px;
+  cursor: pointer;
 }
 
 .informations {
-  font-size: 16px;
+  font-size: 14px;
   background-color: #fff;
   padding: 20px;
   line-height: 2;
